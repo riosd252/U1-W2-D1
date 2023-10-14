@@ -13,42 +13,41 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let string="Stringhe"
+let string = "Stringhe";
 
-let exemp="Esempio: Casa"
+let exemp = "Esempio: Casa";
 
-let stringdef="Testo di lettere o numeri scritto tra virgolette."
+let stringdef = "Testo di lettere o numeri scritto tra virgolette.";
 
-console.log(string)
+console.log(string);
 
-console.log(exemp)
+console.log(exemp);
 
-console.log(stringdef)
+console.log(stringdef);
 
-let number="Numeri"
+let number = "Numeri";
 
-exemp="Esempio: 20"
+exemp = "Esempio: 20";
 
-let numberdef="Testo numerico senza virgolette."
+let numberdef = "Testo numerico senza virgolette.";
 
-console.log(number)
+console.log(number);
 
-console.log(exemp)
+console.log(exemp);
 
-console.log(numberdef)
+console.log(numberdef);
 
-let boolean="Booleani"
+let boolean = "Booleani";
 
-exemp="True o False"
+exemp = "True o False";
 
-let booleandef="Dati booleani restituiscono due soli valori: true o false."
+let booleandef = "Dati booleani restituiscono due soli valori: true o false.";
 
-console.log(boolean)
+console.log(boolean);
 
-console.log(exemp)
+console.log(exemp);
 
-console.log(booleandef)
-
+console.log(booleandef);
 
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
@@ -56,11 +55,11 @@ console.log(booleandef)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let name="David Amaru";
+let name = "David Amaru";
 
-console.log(name)
+console.log(name);
 
-console.log(typeof name)
+console.log(typeof name);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -68,11 +67,11 @@ console.log(typeof name)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let num1=12
+let num1 = 12;
 
-let num2=20
+let num2 = 20;
 
-console.log("Addizione in JS:", num1 + num2)
+console.log("Addizione in JS:", num1 + num2);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -80,11 +79,11 @@ console.log("Addizione in JS:", num1 + num2)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let x=12;
+let x = 12;
 
-console.log(x)
+console.log(x);
 
-console.log(typeof x)
+console.log(typeof x);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
@@ -93,19 +92,19 @@ console.log(typeof x)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-name="Rios Saenz"
+name = "Rios Saenz";
 
-console.log(name)
+console.log(name);
 
-const myName=name
+const myName = name;
 
-console.log(myName)
+console.log(myName);
 
 /*Se provassi a cambiare il valore della costante "myName" tramite il comando "myName= ..." il codice esploderebbe.*/
 
-name="David Amaru"
+name = "David Amaru";
 
-console.log(myName)
+console.log(myName);
 
 /* E se invece provo ad alterare il valore della variabile "name" da cui la costante "myName" ha preso il valore, il suo contenuto comunque non cambia.*/
 
@@ -115,7 +114,7 @@ console.log(myName)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-console.log(4 - x)
+console.log(4 - x);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -125,10 +124,10 @@ console.log(4 - x)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let name1="john";
+let name1 = "john";
 
-let name2="John";
+let name2 = "John";
 
-console.log(name1 === name2)
+console.log(name1 === name2);
 
-
+console.log(name1.toLowerCase() === name2.toLowerCase());
